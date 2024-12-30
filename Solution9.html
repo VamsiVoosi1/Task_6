@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements with Default Values</title>
+    <style>
+        label{font-weight: bold;}
+    </style>
+</head>
+<body>
+    <form>        
+        <label>Text: </label>
+        <input type="text" name="text" value="Default Text"><br><br>   
+        <label>Password: </label>
+        <input type="password" name="password" value="123456"><br><br>
+        <label>Email: </label>
+        <input type="email" id="email" name="email" value="example@example.com"><br><br>
+        <label>URL: </label>
+        <input type="url" id="url" name="url" value="https://example.com"><br><br>
+        <label>Telephone: </label>
+        <input type="tel" id="tel" name="tel" value="123-456-7890"><br><br>
+        <label>Date: </label>
+        <input type="date" id="date" name="date" value="2024-01-01"><br><br>
+        <label>Color: </label>
+        <input type="color" id="color" name="color" value="#ff0000"><br><br>
+        <label>Range: </label>
+        <input type="range" id="range" name="range" value="50" min="0" max="100"><br><br>
+        <label>Checkbox: </label>
+        <input type="checkbox" id="checkbox" name="checkbox" checked><br><br>
+        <label>Radio: </label>
+        <input type="radio" name="radio" value="1" checked>Option 1
+        <input type="radio" name="radio" value="2" >Option 2<br>
+        <label>Select: </label>
+        <select id="select" name="select">
+            <option value="option1" selected>Option 1</option>
+            <option value="option2">Option 2</option>
+        </select><br><br>
+        <label>Textarea: </label>
+        <textarea  name="textarea">Default Text</textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
